@@ -1,0 +1,295 @@
+#logo{
+    margin-left:1%;
+    height: 3vw;
+    width: 3vw;
+    position:absolute; left:4%; top:4vw;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url('gilroy/Gilroy-Regular.ttf');
+}
+
+h3{
+    color: black;
+    font-size: 1.5vw;
+    font-family: Gilroy, sans-serif;
+    position:absolute; left:8.5%; top:3vw;
+}
+h1{
+    color: black;
+    font-size: 5vw;
+    font-family: Gilroy, sans-serif;
+    position:absolute; left:4.9%; top:8vw;
+}
+h2{
+    color: black;
+    font-family: Gilroy, sans-serif;
+    position:absolute; left:4.6%; top:28.5vw;
+    text-align: justify;
+}
+h6{
+    color: black;
+    font-family: Gilroy, sans-serif;
+    font-size: 1.5vw;
+}
+#center{
+    position:absolute; 
+    font-size: 1.5vw;
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    /* background: #FFFAFA; */
+}
+#position{
+    left:40%;
+    top:30vw;
+}
+input{
+    font-size: 1vw;
+    font-family: Gilroy, sans-serif;
+}
+input::file-selector-button {
+    font-weight: bold;
+    font-size: 1vw;
+    font-family: Gilroy, sans-serif;
+    color:black;
+    background-color: white;
+    padding: 1% 1.5%;
+    border-radius: 0.3vw;
+    position:absolute; top:60% !important;
+    left:40%;
+}
+input[type=submit]{
+    font-weight: bold;
+    position:absolute; top:60%;
+    left:50.5%;
+    color:white;
+    background-color: black;
+    padding: 1% 2.5%;
+    border-radius: 0.3vw;
+}
+input[type="file"]{
+    color: transparent;   
+
+}
+textarea{
+    color:black;
+    background-color: white;
+    font-size: 1vw;
+    font-family: Gilroy, sans-serif;
+    text-align: justify;
+    white-space: normal;
+    border-color: transparent;
+    resize: none;
+    padding-bottom: 2.5px;
+}
+h4{
+    position:absolute; top:15vw;
+    text-align: justify;
+    font-family: Gilroy, sans-serif;
+}
+h5{
+    position:absolute; left:3.8%; top:0vw;
+    font-size: 5vw;
+    font-family: Gilroy, sans-serif;
+    left:40%;
+}
+#segment{
+    color:white;
+    background-color: black;
+    font-size: 1.8vw;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.tab{
+    margin-left:4.1%;
+    margin-bottom: 1vw;
+}
+.button1{
+    font-family: Gilroy, sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color:white;
+    background-color:black;
+    padding: 1% 3.5%;
+    border-radius: 0.3vw;
+    position:absolute; top:40vw;
+    margin-bottom: 5vw;
+}
+.button1:hover{
+    filter: brightness(120%);
+}
+.button2{
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-left:13%;
+    background-color: white;
+    padding: 1% 3%;
+    border-radius: 0.3vw;
+    position:absolute; top:40vw;
+    margin-bottom: 5vw;
+}
+.button2:hover{
+    filter: brightness(115%);
+}
+.button3{
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color:black;
+    background-color:white;
+    padding: 1% 3%;
+    border-radius: 0.3vw;
+    position:absolute; 
+    /* top:55vw;  */
+    left:45%;
+    margin-bottom: 5vw;
+}
+.button3:hover{
+    filter: brightness(115%);
+}
+.button4{
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color:white;
+    background-color:black;
+    padding: 1% 3%;
+    border-radius: 0.3vw;
+    position:absolute; 
+    left:50.5%; top:88%;
+    margin-bottom: 5vw;
+}
+.button4:hover{
+    filter: brightness(115%);
+}
+.button5{
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color:black;
+    background-color:white;
+    padding: 1% 3%;
+    border-radius: 0.3vw;
+    position:absolute; 
+    left:40%; top:88%;
+    margin-bottom: 5vw;
+}
+.button5:hover{
+    filter: brightness(115%);
+}
+.button6{
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color:black;
+    background-color:white;
+    padding: 1% 3%;
+    border-radius: 0.3vw;
+    position:absolute; 
+    left:40%; top:40vw;
+    margin-bottom: 5vw;
+}
+.button6:hover{
+    filter: brightness(115%);
+}
+#layout{
+    margin-bottom: 5%;
+}
+#rectangle{
+    /* width: 100%; */
+    left:0;
+    right:0;
+    height: 2.5%;
+    background-color: black;
+    position:fixed; bottom:0;
+    object-fit: contain;
+}
+#dna{
+    position:absolute; left:77%; bottom:35%;
+    rotate: 270deg;
+    height: 30%;
+    width: 14%;
+    object-fit:contain;
+    aspect-ratio: 512/512;
+}
+#dna-test{
+    height: 70%;
+    width: 30%;
+    position:absolute; left:55%; bottom:10%;
+    rotate: 270deg;
+    object-fit:contain;
+    padding-bottom: 1%;
+    aspect-ratio: 512/512;
+}
+.container{
+    display: flex;
+    flex: 1;
+    /* flex: calc(object height/object width)*/
+}
+.contain{
+    display: flex;
+    flex: 1;
+}
+
+@media screen and (max-width: 280px) {
+    h2{
+        position:absolute; left:3.8%; top:26vw;
+    }
+    .button1{
+        position:absolute; top:45vw;
+    }
+    .button2{
+        position:absolute; top:45vw;
+    }
+    .button3{
+        position:absolute;
+        margin-top: 5vw;
+    }
+    #layout{
+        margin-bottom: 10vw;
+    }
+    .tab{
+        margin-left:2.6%;
+        margin-bottom: 1vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .button1{
+        position:absolute; top:42vw;
+    }
+    .button2{
+        position:absolute; top:42vw;
+    }
+    .tab{
+        margin-left:3%;
+        margin-bottom: 1vw;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    .button1{
+        margin-bottom: 1vw;
+    }
+    
+}
+
+@media screen and (max-width: 412px) {
+    #dna{
+        position:absolute; left:74%; top:16%;
+    }
+    #dna-test{
+        position:absolute; left:55%; top:0%;
+    }
+}
+@media screen and (max-width: 414px) {
+    #dna{
+        position:absolute; left:74%; top:16%;
+    }
+    #dna-test{
+        position:absolute; left:55%; top:0%;
+    }
+}
